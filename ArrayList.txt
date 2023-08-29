@@ -1,0 +1,61 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.util.*;
+
+
+//ArrayList sử dụng kiểu dữ liệu tham chiếu(kiểu đối tượng)
+
+//khởi tạo 1 ArrayList rỗng
+//ArrayList<data type> name = new ArrayList<data type>();
+//ArrayList(String, Integer) arr = new ArrayList(String, Integer);
+
+//tạo 1 ArrayList chứa các phần tử của tập hợp khác
+Integer numbers[] = {1, 2, 3, 4, 5}; 
+ArrayList<Integer> arr = new ArrayList<Integer>(Array.asList(numbers));
+
+//các phương thức của ArrayList
+
+//arr.add(element); thêm phần tử; arr.add(index, element); thêm phần tử vào vị trí index
+
+//arr.addAll(Arrays.asList(numbers)); thêm 1 collection vào cuối ArrayList, 
+//arr.addAll(index, collection) thêm 1 collection vào vị trí index
+
+//arr.remove(index) xóa phần tử từ vị trí index
+//arr.remove(o) xóa giá trị là o trong ArrayList
+
+//arr.removeAll(Arrays.asList(collection)) xóa các phần tử trong collection
+
+//arr.clear() xóa tất cả phần tử trong ArrayList
+
+
+//arr.get(i) truy cập đến phần tử thứ i trong ArrayList
+
+//arr.set(index, o) thay đổi giá trị o tại phần tử thứ index
+
+
+//arr.indexOf(o) trả về vị trí đầu tiên trong ArrayList có giá trị là o
+
+//lastIndexOf(o) trả về vị trí cuối cùng trong ArrayList có giá trị là o
+
+//arr.contains(o) kiểm tra true/false xem trong ArrayList có phần tử có giá trị là o
+
+//arr.isEmpty() kiểm tra ds rỗng
+
+//arr.size() số lượng phần tử
+
+//lặp qua ArrayList sử dụng Iterator
+//khởi tạo 1 Iterator
+//Iterator<Integer> it = arr.iterator(); it.next(); it.remove(); it.hasNext()
+
+
+//lặp qua ds sử dụng ListIterator
+//khởi tạo: ListIterator<Integer> it = arr.listIterator();
+//it.next(); it.remove(); it.hasNext(); it.hasPrevious(); it.set(); it.add(); it.previous();
+//it.nextIndex(); it.previousIndex(); 
+
+
+public class ArrayList{
+    public static void main(String[] args){
+
+    } 
+}
