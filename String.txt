@@ -1,0 +1,38 @@
+//khai báo kiểu String tham chiếu
+String s = "abcdefg";
+char c[] = {'a', 'b', 'c', 'd', 'e', 'f', 'g'}; //mảng kí tự
+
+//khai báo kiểu không tham chiếu
+String s = new String("abcdefg");
+
+//các phương thức xử lí chuỗi trong java
+
+
+//s.charAt(index); trả về kí tự ở vị trí index
+
+//s.length(); trả về độ dài của chuỗi
+
+//s.substring(start); trả về chuỗi con từ start đến cuối chuỗi
+//s.substring(start, end); trả về chuỗi con từ start đến end
+
+//s.toUpperCase(); s.toLowerCase();
+
+
+//s.trim(); xóa khoảng trống thừa ở đầu và cuối chuỗi
+
+//s.startsWith(substring); s.endsWith(substring); trả về true/false xem chuỗi s có bắt đầu/kết thúc tại substring không
+
+//s.equals(Object); so sánh chuỗi với đối tượng khác
+
+
+//s.equalsIgnoreCase(String); So sánh chuỗi không phân biệt hoa thường
+
+//s.replace(old, new); 
+
+//s.split(separator); chuyển chuỗi thành mảng con dựa vào separator
+
+//s.replaceAll(old, new); thay thế tất cả chuỗi old thành new
+
+
+//Integer.value0f(numbers); trả về đối tượng của kiểu dữ liệu
+
