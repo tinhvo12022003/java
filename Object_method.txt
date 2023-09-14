@@ -1,0 +1,17 @@
+lớp Object là lớp gốc cho tất cả các lớp khác
+
+- toString(): trả về 1 chuỗi biểu diễn của đối tượng
+
+- equals(Object obj): kiểm tra obj hiện tại có bằng với obj được truyền không
+
+- hashCode() trả về giá trị hashCode của đối tượng
+
+- getClass() trả về mô tả lớp của đối tượng
+
+- notify(): thông báo 1 luồng đang chờ đợi đến việc thay đổi trạng thái của đối tượng
+
+- notifyAll() thông báo tất cả các luồng chờ đợi đến việc thay đổi trạng thái của đối tượng
+
+- wait(): Đưa luồng hiện tại vào trạng thái chờ đợi cho đến khi được thông báo hoặc ngắt bằng cách gọi notify() hoặc notifyAll()
+
+- finalize() được gọi trước khi đối tượng bị thu gom rác, cho phép đối tượng thực hiện các tác vụ dọn dẹp cuối cùngre
