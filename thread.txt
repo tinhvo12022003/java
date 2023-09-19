@@ -1,0 +1,31 @@
+lớp Thread extends từ lớp Object và implements Runnable interface
+
+Constructor của Thread 
+- Thread()
+- Thread(String name)
+- Thread(Runnable)
+- Thread(Runnable r, String name)
+
+các phowng thức của lớp Thread
+- public void run(): thực hiện 1 hành động cho 1 Thread
+- public void start(): bắt đầu thực hiện 1 Thread
+- public void sleep(miliseconds) tạm ngưng thực thi thread cho số mili giây
+- public void join(): đợi 1 thread chết
+- public void join(miliseconds) đợi 1 thread chết trong mili giây
+- public int getPriority(): trả về mức độ ưu tiên của thread
+- public void setPriority(int priority): thay đổi mức độ ưu tiên của thread
+- public String getName(): trả về tên của thread 
+- public void setName(String name): thay đổi tên của thread
+- public Thread currentThread(): trả về tham chiếu của Thread đang được thực thi
+- public int getId() trả về id của Thread
+- public Thread.State getState() trả về trạng thái của thread
+- public boolean isAlive() kiểm tra nếu Thread còn sống
+- public void yield() làm cho các đối tượng thread đang thực thi tạm dừng và cho phép các thread khác thực thi
+- public void suspend() hoãn lại các thread(Không dùng)
+- public void resume() được sử dụng để tiếp tục các thread đang bị hoãn
+- public void stop(): dừng các thread
+- public boolean isDaemon() kiểm tra nếu thread lf luồng nguy hiểm
+- public void setDaemon(boolean b): đánh dấu là luồng hiểm 
+- public void interrupt() ngắt thread
+- public void isInterrupted() kiểm tra nếu thread bị ngắt
+- public static boolean interrupted(): kiểm tra nếu thread hiện tại đã bị ngắt
